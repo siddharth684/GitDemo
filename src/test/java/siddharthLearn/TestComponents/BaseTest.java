@@ -56,6 +56,7 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
+		System.out.println("commiting first");
 		return driver;
 	}
 	
