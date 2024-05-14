@@ -56,6 +56,9 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
+		System.out.println("commiting first");
+		System.out.println("gistuff commiting first");
+		System.out.println("gitstuff commiting this as well");
 		return driver;
 	}
 	
